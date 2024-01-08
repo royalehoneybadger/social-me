@@ -1,3 +1,11 @@
 .sidebar{
-    font: 3px;
+    flex: 3px;
+    height: calc(100vh-50px);
+    background-color: greenyellow;
+}
+
+.sidebar-wrapper{
+    padding:20px;
+    background-color: #ba1717;
+
 }

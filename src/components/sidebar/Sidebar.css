@@ -1,11 +1,68 @@
 .sidebar{
-    flex: 3px;
+    flex: 3;
     height: calc(100vh-50px);
-    background-color: greenyellow;
+    overflow-y:scroll ;
 }
+
+/* For Firefox */
+html {
+    scrollbar-width: thin;
+    scrollbar-color: #fff #696666;
+}
+
+
 
 .sidebar-wrapper{
     padding:20px;
-    background-color: #ba1717;
 
+
+}
+
+.sidebar-list {
+    padding: 0;
+    margin: 0;
+    list-style:none ;
+
+}
+
+.sidebar-list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sidebar-icon {
+    margin-right: 15px;
+}
+
+.sidebar-button {
+    width: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.sidebar-hr{
+    margin: 20px 0;
+}
+
+.sidebar-friend-list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sidebar-friend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.sidebar-pfp{
+   width: 32px;
+   height: 32px;
+   border-radius: 50%;
+   object-fit: cover;
+   margin-right: 10px;
 }
